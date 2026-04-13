@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJ Rocstar | Professional DJ Kenya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Google AdSense (Activate after approval) -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+
+  <style>
+    body {
+      margin:0;
+      font-family: 'Orbitron', sans-serif;
+      background:#0a0a0a;
+      color:white;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4') center/cover;
+      height: 90vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }
+
+    header h1 {
+      font-size:3rem;
+      color:#00ffc3;
+    }
+
+    nav {
+      position:sticky;
+      top:0;
+      background:#000;
+      padding:10px;
+      text-align:center;
+    }
+
+    nav a {
+      color:white;
+      margin:0 15px;
+      text-decoration:none;
+    }
+
+    section {
+      padding:50px 20px;
+      max-width:1000px;
+      margin:auto;
+    }
+
+    .btn {
+      background:#00ffc3;
+      color:black;
+      padding:12px 25px;
+      border:none;
+      border-radius:30px;
+      cursor:pointer;
+      text-decoration:none;
+      display:inline-block;
+      margin-top:10px;
+    }
+
+    .card {
+      background:#111;
+      padding:20px;
+      margin:10px 0;
+      border-radius:15px;
+    }
+
+    iframe {
+      border:none;
+      border-radius:10px;
+    }
+
+    footer {
+      text-align:center;
+      padding:20px;
+      background:black;
+    }
+
+    input, textarea {
+      width:100%;
+      padding:12px;
+      margin:8px 0;
+      border-radius:5px;
+      border:none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DJ ROCSTAR</h1>
+  <p>Kenya's Open Format DJ | Club • Weddings • Events</p>
+  <a href="https://wa.me/2547XXXXXXXX" class="btn">Book Now</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#mixes">Mixes</a>
+  <a href="#services">Services</a>
+  <a href="#tips">Tips</a>
+  <a href="#ads">Ads</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Professional DJ delivering high-energy mixes across Afrobeat, Amapiano, Hip Hop, Gengetone & Club Hits.</p>
+</section>
+
+<section id="mixes">
+  <h2>My Latest Mix</h2>
+
+  <!-- YouTube Embed -->
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
+
+  <!-- Audio Player -->
+  <h3>Listen Direct</h3>
+  <audio controls style="width:100%">
+    <source src="your-mix.mp3" type="audio/mpeg">
+  </audio>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="card">🔥 Club DJ Experience</div>
+  <div class="card">💍 Weddings & Private Events</div>
+  <div class="card">🎉 Parties & Corporate Events</div>
+</section>
+
+<section id="tips">
+  <h2>Support My Work</h2>
+  <p>Love the vibes? Send a tip ❤️</p>
+
+  <button class="btn" onclick="window.location.href='tel:*334#'">
+    Tip via M-Pesa
+  </button>
+
+  <p>Or send directly to: <strong>07XXXXXXXX</strong></p>
+</section>
+
+<section id="ads">
+  <h2>Advertisements</h2>
+
+  <div class="card">
+    <h3>🔥 Advertise Your Brand</h3>
+    <p>Promote your club, event or product here.</p>
+  </div>
+
+  <div class="card">
+    <h3>🎉 Upcoming Event</h3>
+    <p>Saturday Night Takeover – Book now!</p>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Book Me</h2>
+  <form onsubmit="sendMessage(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Event Details"></textarea>
+    <button class="btn">Send Request</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 DJ Rocstar | Nairobi, Kenya</p>
+</footer>
+
+<script>
+function sendMessage(e){
+  e.preventDefault();
+  alert("Booking request received! I will contact you.");
+}
+</script>
+
+</body>
+</html>
